@@ -303,7 +303,7 @@ def build_player(cfg, t, s):
     o.append(pbox(px, py, pw, ph, t["panel"], t["edge"], n=6))
     o.append(board_portrait(cfg, t, px, py))
     o.append(pbox(px + 8, py + ph + 10, pw - 16, 30, t["edge"], t["edge"], n=4))
-    o.append(f'<text x="{px + pw / 2}" y="{py + ph + 30}" text-anchor="middle" style="font-size:14px;font-weight:700;fill:{t["bg"]}">LV {level} · {rank_title(level)}</text>')
+    o.append(f'<text x="{px + pw / 2}" y="{py + ph + 30}" text-anchor="middle" style="font-size:14px;font-weight:700;fill:{t["bg"]}">LV {level} · {esc(cfg.get("rank") or rank_title(level))}</text>')
 
     # identity + next move
     x0, x1 = 228, W - 32

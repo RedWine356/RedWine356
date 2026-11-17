@@ -273,5 +273,7 @@
   ],
   "footer": "Your move, recruiter.",
   "piece": "knight",
-  "next_move": "Efficient inference systems, ML security and fairness in graph neural nets"
+  "next_move": "Efficient inference systems, ML security and fairness in graph neural nets",
+  "level": 8,
+  "rank": "Knight"
 }
