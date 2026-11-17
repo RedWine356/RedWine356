@@ -1,0 +1,277 @@
+{
+  "github": "RedWine356",
+  "name": "Ridhwanul Islam",
+  "theme": "walnut",
+  "class": "CSE undergrad, 4th year at BUET",
+  "coin": "open to internships: systems development or ML research",
+  "attributes": [
+    [
+      "SYSTEMS",
+      8
+    ],
+    [
+      "ML",
+      9
+    ],
+    [
+      "RESEARCH",
+      9
+    ],
+    [
+      "SHIP",
+      8
+    ],
+    [
+      "WRITE",
+      6
+    ]
+  ],
+  "stats": {
+    "total_contributions": 0,
+    "current_streak": 0,
+    "longest_streak": 0,
+    "commits": 0,
+    "repos": 0,
+    "stars": 0,
+    "followers": 0,
+    "prs": 0,
+    "issues": 0,
+    "languages": {}
+  },
+  "skill_layers": [
+    {
+      "name": "languages",
+      "skills": [
+        {
+          "name": "C",
+          "state": "done"
+        },
+        {
+          "name": "C++",
+          "state": "done"
+        },
+        {
+          "name": "Python",
+          "state": "done"
+        },
+        {
+          "name": "C#",
+          "state": "done"
+        },
+        {
+          "name": "Java",
+          "state": "done"
+        },
+        {
+          "name": "JavaFX",
+          "state": "done"
+        }
+      ]
+    },
+    {
+      "name": "tech",
+      "skills": [
+        {
+          "name": "MongoDB",
+          "state": "done"
+        },
+        {
+          "name": "Postgres",
+          "state": "done"
+        },
+        {
+          "name": "ReactJS",
+          "state": "done"
+        },
+        {
+          "name": "Django",
+          "state": "done"
+        }
+      ]
+    },
+    {
+      "name": "deep learning",
+      "skills": [
+        {
+          "name": "PyTorch",
+          "state": "done"
+        },
+        {
+          "name": "PyG",
+          "state": "done"
+        }
+      ]
+    },
+    {
+      "name": "research now",
+      "skills": [
+        {
+          "name": "Efficient infer.",
+          "state": "training"
+        },
+        {
+          "name": "ML security",
+          "state": "training"
+        },
+        {
+          "name": "GNN fairness",
+          "state": "training"
+        },
+        {
+          "name": "HCI",
+          "state": "locked"
+        }
+      ]
+    }
+  ],
+  "now_building": {
+    "title": "SFUGAG: fair graph learning",
+    "tagline": "Source-free, label-free fair adaptation of a graph neural network. Paper under review.",
+    "bullets": [
+      "Only a frozen source task encoder and a sensitive head cross from the source graph; on the target the method reads node features and edges only",
+      "My part: worked out the source-free, label-free fair adaptation approach and wrote the paper",
+      "Scored on accuracy, AUC and two fairness gaps (demographic parity, equalized odds), built with **PyTorch + PyTorch Geometric**"
+    ],
+    "links": [
+      {
+        "label": "Code",
+        "url": "https://github.com/Morningstaaar36/SFUGAG"
+      }
+    ]
+  },
+  "projects": [
+    {
+      "name": "SFUGAG",
+      "repo": "Morningstaaar36/SFUGAG",
+      "desc": "Fair graph learning: source-free, label-free fair adaptation of a GNN. I worked out the approach and wrote the paper.",
+      "status": "in play",
+      "difficulty": 5,
+      "tags": [
+        "PyTorch",
+        "PyG",
+        "GNN",
+        "Fairness"
+      ],
+      "lang": "Python",
+      "stars": 0,
+      "updated": "",
+      "result": "paper under review"
+    },
+    {
+      "name": "GridWise",
+      "repo": "Morningstaaar36/gridwise-llm-energy-optimizer",
+      "desc": "LLM + optimizer: reads operator notes, then an LP finds the cheapest valid 24-hour grid/solar/battery plan. I built the LP core.",
+      "status": "won",
+      "difficulty": 4,
+      "tags": [
+        "Python",
+        "LLM",
+        "LP",
+        "FastAPI"
+      ],
+      "lang": "Python",
+      "stars": 0,
+      "updated": "",
+      "result": "10/10 public cases valid"
+    },
+    {
+      "name": "GARPGuard",
+      "repo": "RedWine356/GARPGuard",
+      "desc": "CSE 406 group project: gratuitous-ARP storms as a LAN availability attack, and defences that survive them. Docker lab, ARP guard, PAROLE.",
+      "status": "won",
+      "difficulty": 4,
+      "tags": [
+        "Python",
+        "Docker",
+        "Networking",
+        "Security"
+      ],
+      "lang": "Python",
+      "stars": 0,
+      "updated": "",
+      "result": "40/40 live checks, 4 topologies"
+    },
+    {
+      "name": "MIPS CPU + Assembler",
+      "repo": "RedWine356/Level-2_Term-2_CourseWorks/tree/main/CSE210/MIPS",
+      "desc": "CSE 210 group project: a MIPS-style CPU (datapath, ALU, control unit) built in Logisim, plus a C++ assembler that turns MIPS code into machine code.",
+      "status": "won",
+      "difficulty": 3,
+      "tags": [
+        "Logisim",
+        "C++",
+        "MIPS",
+        "Hardware"
+      ],
+      "lang": "C++",
+      "stars": 0,
+      "updated": "",
+      "result": ""
+    },
+    {
+      "name": "Barnomala Fee Tracker",
+      "repo": "RedWine356/Coaching_fee_tracker",
+      "desc": "Android app for a coaching center: batches, students and a month-by-month fee register. Offline, local SQLite, elderly-friendly UI.",
+      "status": "won",
+      "difficulty": 2,
+      "tags": [
+        "Flutter",
+        "Dart",
+        "Android",
+        "SQLite"
+      ],
+      "lang": "Dart",
+      "stars": 0,
+      "updated": "",
+      "result": ""
+    }
+  ],
+  "sections": [
+    {
+      "title": "📇 Model card",
+      "items": [
+        "**Intended use:** systems development or ML research internships",
+        "**Training data:** CSE undergrad, 4th year at BUET; course, competition and research projects",
+        "**Evaluation:** GridWise passes 10/10 public cases with LP costs matching the reference; SFUGAG paper under review",
+        "**Contact for issues:** ridhwan3ash@gmail.com"
+      ]
+    },
+    {
+      "title": "📖 Currently studying",
+      "items": [
+        "Efficient inference systems",
+        "ML security",
+        "Fairness in graph neural networks",
+        "Next on the list: HCI"
+      ]
+    },
+    {
+      "title": "🔧 Hardware",
+      "items": [
+        "MIPS-style CPU in Logisim with a C++ assembler (CSE 210), [code](https://github.com/RedWine356/Level-2_Term-2_CourseWorks/tree/main/CSE210/MIPS)",
+        "Built a robo car as part of a hardware project"
+      ]
+    },
+    {
+      "title": "🎯 More games",
+      "items": [
+        "[ShowTime](https://github.com/Morningstaaar36/Showtime): crowd-safety planner where AI agents build a venue in 3D, red-team it and keep only simulator-proven fixes (contributor)",
+        "[Reddit-Clone](https://github.com/nothing-reasonable/Reddit-Clone): team-built Reddit clone in TypeScript and Java (contributor)",
+        "[RestaurantAppJava](https://github.com/RedWine356/RestaurantAppJava): restaurant app using Java networking and JavaFX"
+      ]
+    }
+  ],
+  "links": [
+    {
+      "label": "linkedin",
+      "url": "https://www.linkedin.com/in/ridwan-asif-082b47264/"
+    },
+    {
+      "label": "email",
+      "url": "mailto:ridhwan3ash@gmail.com"
+    }
+  ],
+  "footer": "Your move, recruiter.",
+  "piece": "knight",
+  "next_move": "Efficient inference systems, ML security and fairness in graph neural nets"
+}
