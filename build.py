@@ -447,7 +447,6 @@ def build_snake(cfg, t, s):
     head += f'<defs><path id="rail" d="{path_d}" fill="none"/><clipPath id="board"><rect x="{x0 - 1}" y="{y0 - 1}" width="{nw * pitch + 1}" height="{7 * pitch + 1}"/></clipPath></defs>'
     head += pbox(2, 2, W - 4, H - 4, t["bg"], t["edge"], n=8, sw=3)
     head += f'<text x="28" y="30" style="font-size:12px;font-weight:700;letter-spacing:2px;fill:{t["edge"]}">COMMIT SNAKE</text>'
-    head += f'<text x="{W - 28}" y="30" text-anchor="end" style="font-size:11px;fill:{t["dim"]}">1 square = 1 day. the snake captures what you shipped</text>'
     head += f'<line x1="3" y1="44" x2="{W - 3}" y2="44" stroke="{t["line"]}" stroke-width="2"/>'
     head += "".join(o) + f'<g clip-path="url(#board)">{"".join(snake)}</g>'
     # legend
